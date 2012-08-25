@@ -1,0 +1,12 @@
+#ifndef USA_NETWORK_C_H
+#define USA_NETWORK_C_H
+
+
+enum {
+ AM_USANETWORKMSG = 0x05,
+ SAMPLE_RATE_KEY = 0x1,
+ CL_TEST = 0xee,
+ USA_NETWORK_QUEUE_SIZE = 8,
+};
+
+#endif
